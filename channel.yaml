@@ -6,5 +6,5 @@ metadata:
 spec:
   configMapRef:
     name: git-ca
-  pathname: https://github.com/ruici-hong/app-samples
+  pathname: https://github.com/ruici-hong/helm-test
   type: Git
