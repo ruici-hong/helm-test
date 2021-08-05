@@ -1,0 +1,10 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: my-channel
+  namespace: channel-ns
+spec:
+  configMapRef:
+    name: git-ca
+  pathname: https://github.com/ruici-hong/app-samples
+  type: Git
